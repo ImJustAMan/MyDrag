@@ -2,9 +2,6 @@
 简单的拖拽组件封装
 接收参数
 init: {
-	draged: el,
-    scroll: true||false, 
-    clone: true||false 
     draged: el, //被拖拽元素
     scroll: { //设置被拖拽元素作为自定义滚动条的滚动条，传参时bar就为滚动条元素draged可不传
         bar: el, //被拖拽元素（作为滚动条时传入这个元素无须传draged）
